@@ -1,0 +1,30 @@
+{
+    "name": "onedrop/shopware-node-scss",
+    "version": "1.0.0",
+    "description": "",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Onedrop\\Scss\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/storefront": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Onedrop\\Scss\\Scss",
+        "label": {
+            "de-DE": "SCSS Compiler with NodeJS",
+            "en-GB": "SCSS Compiler with NodeJS"
+        },
+        "description": {
+            "de-DE": "SCSS Compiler with NodeJS",
+            "en-GB": "SCSS Compiler with NodeJS"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://1drop.de",
+            "en-GB": "https://1drop.de"
+        }
+    }
+}

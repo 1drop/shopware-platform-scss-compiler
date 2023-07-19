@@ -1,0 +1,11 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Onedrop\Scss\:
+        resource: '../../*'
+        exclude: '../../{DependencyInjection, Scss.php}'
+
+    Onedrop\Scss\Theme\ScssNodeCompiler:
+        decorates: 'Shopware\Storefront\Theme\ScssPhpCompiler'
